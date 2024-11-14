@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .profile img {
+            border-radius:10px;
+            width: 100px;
+            height: 100px;
+            margin-right: 20px;
+			border:2px solid black;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .skills {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills li {
+            background: #e2e2e2;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="profile.jpg" alt="Profile Photo" id="c">
+            <div>
+                <h1>Pal suraj Ashok</h1>
+                <p>Email:suraj@gmail.com</p>
+                <p>Phone:7654644xx</p>
+            </div>
+        </div>
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Dynamic and results-oriented professional with over 5 years of 
+			experience in web development.</p>
+        </div>
+        <div class="section">
+            <h2>Experience</h2>
+            <h3>Web Developer at Surya Company</h3>
+            <p>June 2018 - Present</p>
+            <ul>
+                <li>Developed and maintained company website.</li>
+                <li>Collaborated with designers to create user-friendly interfaces.</li>
+            </ul>
+            <h3>Junior Developer at ABC Inc.</h3>
+            <p>January 2016 - May 2018</p>
+            <ul>
+                <li>Assisted in the development of web applications.</li>
+                <li>Participated in code reviews and team meetings.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Education</h2>
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>University of Technology, 2015</p>
+        </div>
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills">
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
